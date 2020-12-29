@@ -3,7 +3,7 @@ def count_strings(array)
   count = 0
   array.count do |num|
     puts count
-    count += num
+    count += 1
   end
   p count
   count
