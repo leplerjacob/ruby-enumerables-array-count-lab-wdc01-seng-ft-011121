@@ -5,6 +5,7 @@ def count_strings(array)
     if el.class.to_s == "String"
       count += 1
     end
+  end
   count
 end
 
