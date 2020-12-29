@@ -1,9 +1,10 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
   count = 0
-  array.count do
-    puts count
-    count += 1
+  array.count do |el|
+    if el.class.to_s == "String"
+      count += 1
+    end
   end
   p count
   count
