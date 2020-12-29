@@ -4,6 +4,7 @@ def count_strings(array)
   array.count do |num|
     count += num
   end
+  p count
   count
 end
 
