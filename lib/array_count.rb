@@ -6,7 +6,6 @@ def count_strings(array)
       count += 1
     end
   end
-  p count
   count
 end
 
