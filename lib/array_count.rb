@@ -14,6 +14,7 @@ def count_empty_strings(array)
   count = 0
   array.count do |el|
     puts el
+  end
   # count
   count
 end
